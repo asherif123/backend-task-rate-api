@@ -19,7 +19,7 @@ python manage.py runserver
 ##### DOCKER #####
 
 # you can download my image and run it directly
-I will provide the link once it's uploaded
+https://drive.google.com/drive/folders/1oqy789BpoPxipXCgQgYlHKURBRBgHwgP?usp=sharing
 
 # OR build the image
 sudo docker-compose build
