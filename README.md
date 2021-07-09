@@ -1,28 +1,26 @@
-# clone the repo
-git clone https://github.com/asherif123/backend-task-rate-api.git
+# Exchange Rate API
+Returns the exchange rate between two currencies on a particular date.
 
-# create your virtual environment
-python3 -m venv venv
+## Running Steps
+- First create a virtual env  
+```python3.8 -m venv venv```
+- Activate the venv  
+```source venv/bin/activate```
+- Install the project requirements  
+```pip install -r requirements.txt```
+- Navigate into the project's directory  
+```cd mysite```
+- Run the tests  
+```python manage.py test```
+- Run the server  
+```python manage.py runserver```
 
-# to activate the virtual env
-source venv/bin/activate
 
-# install dependencies
-pip install -r requirements.txt
+## DOCKER
 
-# run the tests
-python manage.py test
+- Build the image  
+```sudo docker-compose build```
 
-# run the project
-python manage.py runserver
+- Run the image  
+```sudo docker-compose up```
 
-##### DOCKER #####
-
-# you can download my image and run it directly
-https://drive.google.com/drive/folders/1oqy789BpoPxipXCgQgYlHKURBRBgHwgP?usp=sharing
-
-# OR build the image
-sudo docker-compose build
-
-# run the image
-sudo docker-compose up
